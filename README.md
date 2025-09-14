@@ -1,14 +1,26 @@
-# React + Vite
-.env
-.env.*
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔗 Squooshy – URL Shortener with QR Codes  
 
-Currently, two official plugins are available:
+Squooshy is a modern URL shortener built with **React, Supabase, and QR Code generation**.  
+It allows users to shorten long links, create custom slugs, and generate QR codes that can be stored and accessed via Supabase Storage.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Squooshy-URL_Shortener" 
+- ✨ Shorten long URLs into tiny shareable links  
+- 🎯 Custom aliases (e.g. `squooshy.in/my-link`)  
+- 📷 Generate and store QR codes for each short link  
+- 🔐 User authentication with Supabase  
+- 📂 Store shortened links in Supabase database  
+- 🗑 Delete or manage existing links  
+- 🌐 Deployed with support for environment variables  
+
+---
+
+## 🛠 Tech Stack  
+
+- **Frontend**: React + Vite  
+- **Database & Auth**: [Supabase](https://supabase.io)  
+- **Storage**: Supabase Storage (for QR codes)  
+- **QR Codes**: [react-qrcode-logo](https://www.npmjs.com/package/react-qrcode-logo)  
+
