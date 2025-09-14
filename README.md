@@ -24,3 +24,13 @@ It allows users to shorten long links, create custom slugs, and generate QR code
 - **Storage**: Supabase Storage (for QR codes)  
 - **QR Codes**: [react-qrcode-logo](https://www.npmjs.com/package/react-qrcode-logo)  
 
+## Note
+
+- Remember to add vercel.json file in root directory if you deploy it on vercel as it does not handle route correctly
+
+## Code for vercel.json:
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
